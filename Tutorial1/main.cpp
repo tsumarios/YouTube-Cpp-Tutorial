@@ -2,7 +2,7 @@
  *
  *	TUTORIAL C++ - Lesson 1
  *	Arguments: main, cout & cin, variables, constants,
- *			   data types, if, for & while, terminal arguments.
+ *			   data types, if construct.
  *
  *	Author: Mario Raciti
  *	Github: https://www.github.com/zMrDevJ
