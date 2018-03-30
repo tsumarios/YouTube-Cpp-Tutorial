@@ -1,8 +1,9 @@
 /*********************************************************************
  *
- *	TUTORIAL C++ - Lesson 1
+ *	TUTORIAL C++ - Lesson 2
  *	Arguments: Loops (for - while - do while), static arrays,
  *			   calculate min of array.
+ *	Homeworks: Calculate max of array iterating from its last element.
  *
  *	Author: Mario Raciti
  *	Github: https://www.github.com/zMrDevJ
@@ -58,5 +59,19 @@ int main(){
 		cout << "Il minimo relativo fino ad ora e': " << min << endl;
 	}
 	cout << "Il minimo assoluto dell'array a e': " << min << endl;
+	
+	
+	/***********************************
+	 *
+	 *	SOLUZIONE ESERCIZIO ASSEGNATO
+	 *
+	 ***********************************/
+	/* Calcolo del massimo di un array, scorrendolo dalla fine */
+	int max = a[N];	//Massimo inizialmente posto all'ultimo elemento dell'array a
+	for(int i = N-1; i <= 0; i--){	//parte da N-1 poichè l'ultimo elemento lo abbiamo già posto a max relativo
+		if(a[i] > max)	max = a[i];
+		cout << "Il massimo relativo fino ad ora e': " << max << endl;
+	}
+	cout << "Il massimo assoluto dell'array a e': " << max << endl;
 
 }
