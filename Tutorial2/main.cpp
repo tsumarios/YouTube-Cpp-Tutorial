@@ -61,11 +61,8 @@ int main(){
 	cout << "Il minimo assoluto dell'array a e': " << min << endl;
 	
 	
-	/***********************************
-	 *
-	 *	SOLUZIONE ESERCIZIO ASSEGNATO
-	 *
-	 ***********************************/
+	/*********************************** SOLUZIONE ESERCIZIO ASSEGNATO ***********************************/
+	
 	/* Calcolo del massimo di un array, scorrendolo dalla fine */
 	int max = a[N];	//Massimo inizialmente posto all'ultimo elemento dell'array a
 	for(int i = N-1; i <= 0; i--){	//parte da N-1 poichè l'ultimo elemento lo abbiamo già posto a max relativo
