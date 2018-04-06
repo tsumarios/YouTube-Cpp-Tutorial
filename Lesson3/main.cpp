@@ -66,3 +66,14 @@ void swap(int (*pA), int (*pB)){
 	*pA = *pB;
 	*pB = tmp;
 }
+
+
+/***************************** ESERCIZIO ********************************/
+//Funzione che prende in input un puntatore a int e un intero di nome n con valore di default = 0
+//Che restituisce il valore puntato da p se != NULL, n altrimenti
+
+int exercise(int *p, int n = 0){
+	//if(p)	return *p;	//Ritorna il valore puntato da p se esso non punta a NULL,
+	//return n;	//altrimenti.
+	return p ? *p : n;
+}
