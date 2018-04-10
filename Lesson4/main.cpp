@@ -36,7 +36,7 @@ struct Persona{
 	string nome = "NomeDefault";
 	string cognome = "CognomeDefault";
 	int eta = 18;
-}
+};
 
 //Main
 int main(){
