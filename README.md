@@ -8,7 +8,7 @@ In questa repository sono contenuti i codici scritti per i video tutorial sul li
   
 ##### Contacts
 
- - Emails: mraciti96@gmail.com
+ - Email: mraciti96@gmail.com
  - LinkedIn: linkedin.com/in/marioraciti
  - Facebook: facebook.com/MarioRacitiDev
  - Twitter: twitter.com/mraciti_dev
