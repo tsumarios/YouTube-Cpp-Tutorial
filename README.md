@@ -10,7 +10,7 @@ In questa repository sono contenuti i codici scritti per i video tutorial sul li
 
  - Email: marioraciti@pm.me
  - LinkedIn: linkedin.com/in/marioraciti
- - Twitter: twitter.com/zMrDevJ
+ - Twitter: twitter.com/zMrSec
  
  
  [YouTube Channel]: <https://www.youtube.com/MarioRacitiDev>
